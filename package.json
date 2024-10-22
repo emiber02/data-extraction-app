@@ -1,0 +1,12 @@
+{
+  "name": "data-extraction-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10"
+  },
+  "scripts": {
+    "main-task": "node app.js sample.html '{\"title\": \"h1:first-child\", \"firstParagraph\": \"p:first-child\"}' main",
+    "bonus-task": "node app.js table_sample.html '{\"title\": \"h1:first-child\", \"__root\": \"table tr\", \"itemName\": \"td:nth-child(1)\", \"price\": \"td:nth-child(2)\"}' bonus"
+  }
+}
