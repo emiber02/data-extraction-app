@@ -1,0 +1,10 @@
+{
+    "title": "h1",
+    "prices": {
+        "__root": "html > body > table > tr",
+        "itemName": "td:nth-child(1)",
+        "price": "td:nth-child(2)",
+        "currency": "td:nth-child(3)",
+        "vat": "td:nth-child(4)"
+    }
+}
